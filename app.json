@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "moody-violet-apple",
-    "slug": "snack-ca6b8df3-7432-4b96-b360-3e0bfba3a417",
+    "name": "Mein Heimgarten",
+    "slug": "mein-heimgarten",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,11 +10,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.maikids.heimgarten"
-    },
-    "plugins": [
-      "expo-notifications"
-    ]
+      "package": "com.maikids.heimgarten",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -22,6 +18,9 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       }
     },
+    "plugins": [
+      "expo-notifications"
+    ],
     "web": {
       "favicon": "./assets/favicon.png"
     }
