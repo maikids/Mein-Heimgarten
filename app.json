@@ -10,6 +10,11 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.maikids.heimgarten"
+    },
+    "plugins": [
+      "expo-notifications"
+    ]
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
